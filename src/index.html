@@ -4,9 +4,23 @@
     <meta charset="utf-8"/>
     <title>My First Parcel App</title>
     <link rel="stylesheet" href="styles.css" />
+    
     <script type="module" src="app.js"></script>
   </head>
   <body>
-    <h1>Hello, World!</h1>
+    <div id="app">
+      <div id="login-content">
+        <h2>Login</h2>
+        <hr />
+        <div id="login-input-content">
+          <input id="username" class="login-input" placeholder="Username" type="text" />
+          <input id="password" class="login-input" placeholder="Password" type="password" />
+          <a id="forgot-link" >Forgot Password?</a>
+          <button id="login-button" >Login</button>
+        </div>
+      <p id="singup-link" >Not a member?<a href="#"> Signup</a></p>
+      </div>
+    </div>
+    
   </body>
 </html>
