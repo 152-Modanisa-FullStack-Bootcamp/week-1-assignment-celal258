@@ -1,4 +1,149 @@
-h1 {
-  color: hotpink;
-  font-family: cursive;
+body{
+  margin: 0;
+  background-color: #ee9a80;
+}
+hr{
+  width: 100%;border-color: #dbdbdb;border-width: 0px 0px 1px 0px ;
+}
+a{
+  text-decoration: none;
+}
+
+#app{
+  width: 100vw; 
+  height: 100vh;
+  display: flex; /* or inline-flex */
+  
+  justify-content: center;
+  align-items: center;
+}
+#post{
+  border-radius: 5px;
+  width: 500px; 
+  height: 590px;
+  background-color: #ffffff;
+  display: flex; /* or inline-flex */
+  flex-direction:column ;
+  
+  gap: 5px;
+}
+#footer{
+  margin: 0px 15px;
+}
+#social-details{
+  display: flex; /* or inline-flex */
+  list-style: none;
+  justify-content: space-between;
+  padding: 0px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#social-details button{
+  padding: 0px;
+}
+
+#social-details span{
+  font-weight: 300;
+  color: #686868;
+}
+
+#action-content{
+  display: flex; /* or inline-flex */
+  list-style: none;
+  justify-content: space-between;
+  
+  margin: 0px 15px;
+  color: #666666;
+}
+#action-icon{
+  display: flex; /* or inline-flex */
+  gap:2px;
+  justify-content: center;
+  align-items: center;
+}
+#content{
+  background-color:#eef3f8;
+}
+#content-explan{
+  margin: 8px 12px;
+}
+#content-explan p{
+  margin: 5px 0px;
+  color: rgb(0 0 0 / 60%);
+}
+h4 {
+  font-family: "Gill Sans", sans-serif;
+  margin: 5px 0px;
+  font-weight: bold;
+  color:rgba(0, 0, 0, 0.9)  ;
+  font-size: 14px;
+}
+.action-buttons{
+  display: flex; /* or inline-flex */
+  list-style: none;
+  gap:5px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.action-buttons:hover{
+  background-color: rgb(235 235 235);
+}
+.action-buttons span{
+  font-weight: 600;
+}
+#action-content span{
+  display: block;
+  color: #666666;
+}
+button{
+  background-color: transparent;
+  border-color: transparent;
+}
+svg{
+  color: #666666;
+}
+#head{
+margin: 0px 16px;
+}
+#head-content {  
+  font-size: 14px;
+}
+#head-top{
+  
+  margin-top: 12px;
+  margin-bottom: 8px;
+  display: flex; /* or inline-flex */
+  justify-content:  space-between;
+  align-items: flex-start;
+}
+#head-feeder{
+  
+  display: flex; /* or inline-flex */
+  flex-direction: row;
+  gap: 10px;
+}
+#feeder{
+  
+  display: flex; /* or inline-flex */
+  flex-direction: column;
+  gap: 4px;
+}
+#feeder_name{
+  font-size: 14px;
+  font-weight: 600;
+}
+#feeder_description{
+
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 12px;
+}
+#feeder_action{
+
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 12px;
+  display: flex; /* or inline-flex */
+  align-items: stretch;
 }
