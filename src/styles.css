@@ -1,4 +1,17 @@
 h1 {
-  color: hotpink;
+  color: red;
   font-family: cursive;
+}
+#content{
+  display: flex;
+  flex-direction: row;
+}
+.product{
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#item_name{
+  text-align: center;
 }
